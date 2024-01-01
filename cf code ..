@@ -1,0 +1,275 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Reset some default styles and apply a modern font */
+        body, h1, h2, h3, p {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        /* Main content styling */
+        main {
+            padding: 20px;
+        }
+
+        .section-title {
+            color: #4CAF50;
+        }
+
+        /* Progress and fitness plan styling */
+        .progress, .fitness-plan {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h3 {
+            color: #4CAF50;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        /* Button styling */
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #4CAF50;
+            color: #fff;
+        }
+/* Image styling */
+        img {
+            width: 160px; /* Set the desired width */
+            height: 170px; /* Set the desired height */
+            display: block;
+            margin: auto;
+        }
+    </style>
+    <title>Health and Fitness Hub</title>
+</head>
+<body>
+    <header>
+        <h1>Health and Fitness Hub</h1>
+    </header>
+    <main>
+	
+        <section id="progressTracking">
+            <h2 class="section-title">Progress Tracking</h2>
+            <div class="progress">
+                <h3>Weight Tracking</h3>
+                <label for="weight">Enter your weight (kg):</label>
+                <input type="number" id="weight" placeholder="Enter your weight">
+                <button onclick="recordWeight()">Record Weight</button>
+            </div>
+
+            <div class="progress">
+                <h3>Workout Duration Tracking</h3>
+                <label for="workoutDuration">Enter your workout duration (minutes):</label>
+                <input type="number" id="workoutDuration" placeholder="Enter workout duration">
+                <button onclick="recordWorkoutDuration()">Record Workout Duration</button>
+            </div>
+        </section>
+
+        <section id="healthAndFitnessPlans">
+            <h2 class="section-title">Health and Fitness Plans</h2>
+            <div class="fitness-plan">
+                 <h3>Weight Loss Plan</h3>
+                <p>A personalized plan to help you achieve your weight loss goals.<br></p>
+<img src="https://www.shape.com/thmb/Q9-93tPORpVI5HUiub24oxmTkJM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/erin-oprea-weight-loss-workout-plan2-e91dbdc195bd46fd89825e202189319a.jpg">
+		<p>To achieve your weight loss goals, it's crucial to create a personalized plan
+ that encompasses both dietary and lifestyle changes. Start by setting realistic
+ and achievable weight loss targets, aiming for a gradual and sustainable approach.
+ Assess your current eating habits and gradually incorporate a well-balanced, 
+nutrient-dense diet:<br>
+<ul>
+<li> plenty of fruits
+<li> vegetables
+<li> lean proteins
+<li> whole grains.</ul>
+ Monitor portion sizes and practice mindful eating to foster a healthy relationship with food.
+ Integrate regular physical activity into your routine, incorporating a mix of:
+<ul>
+<li> cardio,
+<li> strength training
+<li> flexibility exercises.</ul> Prioritize:
+<ul>
+<li> sufficient sleep
+<li> stress management
+<li> hydration </ul> Seek accountability through a support system,
+ whether it's a friend, family member, or a fitness group. Regularly track your progress,
+ making adjustments as needed, and celebrate small victories along the way to 
+stay motivated on your weight loss journey.</p>
+<p> Remember, consistency and patience are key elements in achieving lasting results.
+</p>
+            </div>
+            <div class="fitness-plan">
+                 <h3>Muscle Building Plan</h3>
+                <p>Gain strength and build muscle with our specialized workout routine.</p>
+<img src="https://www.shape.com/thmb/94A-SnW7Bnh3p4mW0rJSVawTYtU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/erin-oprea-muscle-building-workout-plan-2-1dc246463d8d4f3f8fbdca51b40d4e87.jpg">
+<p>To embark on a successful muscle-building journey, tailor a personalized plan that combines
+ strategic training and nutrition. Begin with a well-structured resistance training program
+ that targets:
+ major muscle groups, incorporating compound exercises like <ul>
+<li>squats
+<li> deadlifts 
+<li> bench presses.</ul> Focus on progressive overload by gradually increasing weights to stimulate muscle growth.
+ Ensure variety in your workouts to prevent plateaus and maintain motivation. 
+Prioritize adequate protein intake to support muscle repair and growth, 
+aiming for a protein-rich diet with lean meats, dairy, and plant-based sources.
+ Consume a balanced mix of carbohydrates and healthy fats to fuel workouts and sustain energy levels.
+ Implement proper recovery strategies, including:
+<ul>
+<li> rest days
+<li> quality sleep
+<li> and hydration.</ul>
+ Consistency is paramount, so adhere to your workout schedule and nutritional plan while
+ adjusting as needed based on progress. Track your muscle-building journey, celebrate achievements,
+ and stay committed to the process for long-term success in achieving a strong and sculpted physique.</p>
+            </div>
+            <div class="fitness-plan">
+               <h3>Fitness Maintenance Plan</h3>
+                <p>Maintain a healthy and active lifestyle with our maintenance plan.</p>
+<img src="https://relentlessforwardcommotion.com/wp-content/uploads/2020/04/Sample-week-running-fitness-for-health-1-1024x578.png">
+<p>Sustaining a healthy and fit lifestyle requires a thoughtful maintenance plan. 
+Maintain a consistent exercise routine that blends
+<ul>
+<li> cardiovascular activities
+<li> strength training
+<li> flexibility exercises.</ul> Embrace variety to keep workouts
+ engaging and prevent monotony. Prioritize a balanced diet rich in whole foods,
+ emphasizing portion control and mindful eating. Incorporate rest days to allow 
+for proper recovery, and prioritize adequate sleep and hydration for overall well-being.
+ Cultivate a positive mindset, viewing fitness as a lifelong journey rather than a temporary goal.
+ Regular check-ins with progress and occasional adjustments to
+ your routine will contribute to sustained fitness and well-rounded health.</p>
+            </div>
+        </section>
+
+        <section id="workoutLibrary">
+            <h2 class="section-title">Workout Library</h2>
+            <div class="workout">
+ <h3>Cardio Workout</h3>
+                <p>Get your heart pumping with our cardio workout routine.<br>
+		Perfect amount of time for yoga on daily basis is 15-30 minutes</p>
+            </div>
+            <div class="workout">
+                 <h3>Yoga</h3>
+                <p>Relax your mind and body with our yoga sessions.<br>
+		Perfect amount of time for yoga on daily basis is 15-60 minutes</p>
+            </div>
+            <div class="workout">
+                <h3>Skipping</h3>
+                <p>Jump rope exercises for agility and coordination.<br>
+		Perfect amount of time for skipping on daily basis is 5-10 minutes</p>  
+            </div>
+            <div class="workout">
+               <h3>Walking</h3>
+                <p>Low-impact walking routine for overall fitness.<br>
+		Perfect amount of time for walk on daily basis is 30-45 minutes</p>
+            </div>
+            <div class="workout">
+               <h3>Running</h3>
+                <p>Improve your cardiovascular health with our running program.<br>
+		Perfect amount of time for running on daily basis is 30 minutes</p> 
+            </div>
+ <div id="timer">
+                <label for="workoutSelect">Select Workout:</label>
+                <select id="workoutSelect">
+                    <option value="0">Select</option>
+                    <option value="300">Cardio Workout</option> <!-- 5 minutes -->
+                    <option value="600">Yoga</option> <!-- 10 minutes -->
+                    <option value="900">Skipping</option> <!-- 15 minutes -->
+                    <option value="1200">Walking</option> <!-- 20 minutes -->
+                    <option value="1500">Running</option> <!-- 25 minutes -->
+                </select>
+                <button id="startTimerBtn" onclick="startTimer()">Start Timer</button>
+                <button id="stopTimerBtn" onclick="stopTimer()" disabled>Stop Timer</button>
+                <p>Timer: <span id="timerDisplay">00:00</span></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Health and Fitness Hub</p>
+    </footer>
+    <script>
+        let timerInterval;
+        let selectedWorkoutTime = 0;
+
+        function startTimer() {
+            const selectedWorkout = document.getElementById('workoutSelect').value;
+
+            if (selectedWorkout === "0") {
+                alert("Please select a workout.");
+                return;
+            }
+
+            selectedWorkoutTime = parseInt(selectedWorkout);
+            
+            let seconds = 0;
+            timerInterval = setInterval(() => {
+                seconds++;
+
+                if (seconds >= selectedWorkoutTime) {
+                    stopTimer();
+                    alert("Workout completed!");
+                }
+
+                const minutes = Math.floor(seconds / 60);
+                const remainingSeconds = seconds % 60;
+                document.getElementById('timerDisplay').innerText = `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
+            }, 1000);
+
+            document.getElementById('startTimerBtn').disabled = true;
+            document.getElementById('stopTimerBtn').disabled = false;
+        }
+
+        function stopTimer() {
+            clearInterval(timerInterval);
+            document.getElementById('timerDisplay').innerText = '00:00';
+            document.getElementById('startTimerBtn').disabled = false;
+            document.getElementById('stopTimerBtn').disabled = true;
+        }
+    </script>
+</body>
+</html>
